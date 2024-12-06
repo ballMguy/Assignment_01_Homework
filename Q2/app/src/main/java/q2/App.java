@@ -12,7 +12,8 @@ public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input your score: ");
-        int score = scan.nextInt();
+        int score = sc.nextInt();
+        sc.close();
         String grade;
         if (score >= 80) {
             grade = "A";
